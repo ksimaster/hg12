@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb1fba5965669f42b5886146eeb6bd4, type: 3}
+  m_Name: aiEnemy_default_config
+  m_EditorClassIdentifier: 
+  MaxStopTimeOnHealthDecrease: 1.33
+  EasyMovementSpeeds:
+  - 3
+  - 4.4
+  - 5.5
+  - 7
+  - 15
+  NormalMovementSpeeds:
+  - 4
+  - 6
+  - 7
+  - 8
+  - 20
+  HardMovementSpeeds:
+  - 5
+  - 7
+  - 9
+  - 12
+  - 24
+  NormalSightAngle: 47
+  HardSightAngle: 66
+  NormalSightDistance: 29
+  HardSightDistance: 32
+  MaxSetDestTime: 0.2
+  EasyChaseTimeout: 2.3
+  NormalChaseTimeout: 1.4
+  HardChaseTimeout: 0.2
+  MaxAttackDistance: 3.3
+  WanderRandomPointRadius: 9.6
+  WanderRandomSamplePointRange: 1.75
+  WanderForwardDistance: 9.75
+  IdleWaitTime: 0.94
+  MaxRotationTime: 1.11
+  DelayAfterRotate: 1.04
+  SeekForwardDistance: 3.58
+  SeekRandomSamplePointRange: 1.92
+  SeekTimeOut: 4.7
+  MaxStunTime: 5.33
