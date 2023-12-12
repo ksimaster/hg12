@@ -12,7 +12,6 @@ Material:
   m_ValidKeywords:
   - _ALPHAPREMULTIPLY_ON
   - _EMISSION
-  - _METALLICSPECGLOSSMAP
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords:
   - _METALLICGLOSSMAP
