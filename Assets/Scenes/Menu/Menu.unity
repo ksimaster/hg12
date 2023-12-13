@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0026293981, g: 0.000604977, b: 0.0006198386, a: 1}
+  m_IndirectSpecularColor: {r: 0.0024327922, g: 0.00057820545, b: 0.00055306655, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1896,7 +1896,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -18.95868, y: -192}
+  m_AnchoredPosition: {x: -18.95874, y: -192}
   m_SizeDelta: {x: -948.9752, y: -760.82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1518675564
@@ -4731,6 +4731,10 @@ PrefabInstance:
       propertyPath: m_Volume
       value: 0.237
       objectReference: {fileID: 0}
+    - target: {fileID: 8163752549551243233, guid: 800b804add7b86c45bcaf335bc5a20c6, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 342ed3fea48e40e4cb70e70fd0f74e0b, type: 3}
     - target: {fileID: 8163752549702724032, guid: 800b804add7b86c45bcaf335bc5a20c6, type: 3}
       propertyPath: m_RootOrder
       value: 2
