@@ -3341,6 +3341,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 85.92891
       objectReference: {fileID: 0}
+    - target: {fileID: 2487227356552648280, guid: c08de0d456afa3a44ae71f51c51ac547, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2534290828592468500, guid: c08de0d456afa3a44ae71f51c51ac547, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.9955718
@@ -4198,6 +4202,10 @@ PrefabInstance:
       value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 6942553516803922869, guid: c08de0d456afa3a44ae71f51c51ac547, type: 3}
+      propertyPath: _eyeTransform
+      value: 
+      objectReference: {fileID: 45834722}
+    - target: {fileID: 6942553516803922869, guid: c08de0d456afa3a44ae71f51c51ac547, type: 3}
       propertyPath: _footTransform
       value: 
       objectReference: {fileID: 1065480916}
@@ -4312,6 +4320,30 @@ PrefabInstance:
     - target: {fileID: 7271271713740095620, guid: c08de0d456afa3a44ae71f51c51ac547, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -82.184586
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293112956160285279, guid: c08de0d456afa3a44ae71f51c51ac547, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293112956160285279, guid: c08de0d456afa3a44ae71f51c51ac547, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293112956160285279, guid: c08de0d456afa3a44ae71f51c51ac547, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293112956160285279, guid: c08de0d456afa3a44ae71f51c51ac547, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293112956160285279, guid: c08de0d456afa3a44ae71f51c51ac547, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293112956160285279, guid: c08de0d456afa3a44ae71f51c51ac547, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7605845374218925719, guid: c08de0d456afa3a44ae71f51c51ac547, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10292,8 +10324,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1769118773}
     m_Modifications:
     - target: {fileID: 221258027, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2.1782227
+      objectReference: {fileID: 0}
+    - target: {fileID: 221258027, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -5.939453
+      value: -5.939514
       objectReference: {fileID: 0}
     - target: {fileID: 550924165, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -10346,6 +10382,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1057264979, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -9.527832
+      objectReference: {fileID: 0}
+    - target: {fileID: 1057264979, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -15.768433
+      objectReference: {fileID: 0}
     - target: {fileID: 1377350186, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 331
@@ -10356,7 +10400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1444079303, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -5.939453
+      value: -5.939514
       objectReference: {fileID: 0}
     - target: {fileID: 1954116708, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
       propertyPath: m_AnchoredPosition.x

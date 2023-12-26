@@ -125,7 +125,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: bc25e37998cff174d970f0a848df9363, type: 2}
+  m_Motion: {fileID: 7400000, guid: fedb4ca9aa7d29944b592d81857bdf0f, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -381,7 +381,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Zombie Punching
+  m_Name: sssad
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -396,7 +396,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: aa4c9b99dacd0e9448b8be5dc81557e9, type: 2}
+  m_Motion: {fileID: 7400000, guid: 0b7b73b03202ef14d89f673dd9ba4c33, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -510,24 +510,8 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 8f39837f97fca1a46a8487d5baac029e, type: 2}
+    m_Motion: {fileID: 7400000, guid: fe81339ebb89dfa40949339f8e48ed00, type: 2}
     m_Threshold: 0
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: Blend
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 9e0c7ab671b51a544bdb4cdd2b96ccc0, type: 2}
-    m_Threshold: 10
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: Blend
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 0c2630301d3e91f499c202cda56f99c6, type: 2}
-    m_Threshold: 18
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -536,7 +520,7 @@ BlendTree:
   m_BlendParameter: velocityZ
   m_BlendParameterY: Blend
   m_MinThreshold: 0
-  m_MaxThreshold: 18
+  m_MaxThreshold: 0
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
