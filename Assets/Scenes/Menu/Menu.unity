@@ -325,6 +325,7 @@ GameObject:
   - component: {fileID: 305581968}
   - component: {fileID: 305581970}
   - component: {fileID: 305581969}
+  - component: {fileID: 305581971}
   m_Layer: 5
   m_Name: HeaderText (1)
   m_TagString: Untagged
@@ -449,6 +450,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 305581967}
   m_CullTransparentMesh: 1
+--- !u!114 &305581971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305581967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 305581969}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 0}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0423\u0416\u0410\u0421\u0422\u0418\u041A"
+  en: HORROR
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 2/19 completed
+  componentTextField: 1
+  countLang: 2
 --- !u!1 &364424523
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,7 +873,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &457334087
 RectTransform:
   m_ObjectHideFlags: 0
@@ -947,6 +1000,7 @@ GameObject:
   - component: {fileID: 468010516}
   - component: {fileID: 468010518}
   - component: {fileID: 468010517}
+  - component: {fileID: 468010519}
   m_Layer: 5
   m_Name: LoadingText
   m_TagString: Untagged
@@ -1071,6 +1125,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468010515}
   m_CullTransparentMesh: 1
+--- !u!114 &468010519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468010515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 468010517}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 0}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430..."
+  en: Loading...
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 2/19 completed
+  componentTextField: 1
+  countLang: 2
 --- !u!850595691 &560679125
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -1144,6 +1250,7 @@ GameObject:
   - component: {fileID: 567099443}
   - component: {fileID: 567099445}
   - component: {fileID: 567099444}
+  - component: {fileID: 567099446}
   m_Layer: 5
   m_Name: HeaderText
   m_TagString: Untagged
@@ -1268,6 +1375,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 567099442}
   m_CullTransparentMesh: 1
+--- !u!114 &567099446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567099442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 567099444}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 0}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0411\u0415\u041B\u042B\u0419 \u041A\u041B\u041E\u0423\u041D"
+  en: WHITE CLOWN
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 2/19 completed
+  componentTextField: 1
+  countLang: 2
 --- !u!1 &676643415
 GameObject:
   m_ObjectHideFlags: 0
@@ -1453,6 +1612,7 @@ GameObject:
   - component: {fileID: 827491105}
   - component: {fileID: 827491107}
   - component: {fileID: 827491106}
+  - component: {fileID: 827491108}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1592,6 +1752,78 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 827491104}
   m_CullTransparentMesh: 1
+--- !u!114 &827491108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827491104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 827491106}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 0}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "WASD - \u0425\u043E\u0434\u0438\u0442\u044C\nMouse1 - \u0421\u0442\u0440\u0435\u043B\u044F\u0442\u044C/\u0431\u0440\u043E\u0441\u0430\u0442\u044C\nMouse2
+    - \u0426\u0435\u043B\u0438\u0442\u044C\u0441\u044F\nShift - \u0411\u0435\u0436\u0430\u0442\u044C\nC
+    - \u041F\u0440\u0438\u0441\u0435\u0434\u0430\u0442\u044C (\u0442\u0438\u0445\u0438\u0439
+    \u0440\u0435\u0436\u0438\u043C)\nE - \u0412\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C\nF
+    - \u0424\u043E\u043D\u0430\u0440\u0438\u043A\nEsc - \u041F\u0430\u0443\u0437\u0430/\u043E\u0442\u043C\u0435\u043D\u0430
+    \u043F\u0430\u0443\u0437\u044B"
+  en: 'WASD - Walk
+
+    Mouse1 - Fire/Throw
+
+    Mouse2 - Aim
+
+    Shift - Run
+
+    C
+    - Crouch (quiet mode)
+
+    E - Interact
+
+    F - Flashlight
+
+    Esc - Pause/Unpause'
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 400
+  processTranslateLabel: 2/2 completed
+  componentTextField: 1
+  countLang: 2
 --- !u!1 &870525788 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8c1db73625591ed488f61976c043b7f0, type: 3}
@@ -1629,6 +1861,7 @@ GameObject:
   - component: {fileID: 1000682651}
   - component: {fileID: 1000682653}
   - component: {fileID: 1000682652}
+  - component: {fileID: 1000682654}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1753,6 +1986,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000682650}
   m_CullTransparentMesh: 1
+--- !u!114 &1000682654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000682650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 1000682652}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 0}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u0418\u0433\u0440\u0430\u0442\u044C"
+  en: Play
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 2/19 completed
+  componentTextField: 1
+  countLang: 2
 --- !u!1001 &1012298872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1857,6 +2142,7 @@ GameObject:
   - component: {fileID: 1508205395}
   - component: {fileID: 1508205397}
   - component: {fileID: 1508205396}
+  - component: {fileID: 1508205398}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1995,6 +2281,96 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508205394}
   m_CullTransparentMesh: 1
+--- !u!114 &1508205398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508205394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 1508205396}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 0}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "- \u0412\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u043D\u0430\u0439\u0442\u0438
+    \u0438 \u0441\u0436\u0435\u0447\u044C \u0448\u0435\u0441\u0442\u044C \"\u043A\u043B\u043E\u0443\u043D\u0441\u043A\u0438\u0445
+    \u043A\u043E\u0440\u043E\u0431\u043E\u043A\", \u0440\u0430\u0437\u0431\u0440\u043E\u0441\u0430\u043D\u043D\u044B\u0445
+    \u043F\u043E \u0432\u0441\u0435\u043C\u0443 \u0434\u043E\u043C\u0443.\n- \u0412\u044B
+    \u043C\u043E\u0436\u0435\u0442\u0435 \u043E\u0442\u043A\u0440\u044B\u0432\u0430\u0442\u044C
+    \u0434\u0432\u0435\u0440\u0438 \u043A\u043B\u044E\u0447\u0430\u043C\u0438, \u043D\u0430\u0439\u0434\u0435\u043D\u043D\u044B\u043C\u0438
+    \u0432 \u0440\u0430\u0437\u043D\u044B\u0445 \u0447\u0430\u0441\u0442\u044F\u0445
+    \u0434\u043E\u043C\u0430, \u0441\u043E\u0431\u0438\u0440\u0430\u0442\u044C \u0431\u043E\u0435\u043F\u0440\u0438\u043F\u0430\u0441\u044B,
+    \u0430 \u0442\u0430\u043A\u0436\u0435 \u0442\u043E\u043F\u043B\u0438\u0432\u043E
+    \u0438 \u0437\u0430\u0436\u0438\u0433\u0430\u043B\u043A\u0443, \u0447\u0442\u043E\u0431\u044B
+    \u0440\u0430\u0437\u0436\u0435\u0447\u044C \u043E\u0433\u043E\u043D\u044C \u043D\u0430
+    \u0431\u043E\u0447\u043A\u0430\u0445 \u0431\u0435\u0437 \u043E\u0433\u043D\u044F.\n-
+    \u041A\u043B\u043E\u0443\u043D \u043C\u043E\u0436\u0435\u0442 \u0432\u0438\u0434\u0435\u0442\u044C
+    \u0438 \u0441\u043B\u044B\u0448\u0430\u0442\u044C \u0432\u0430\u0441, \u043F\u043E\u044D\u0442\u043E\u043C\u0443
+    \u0432\u0430\u0436\u043D\u043E \u0432\u0435\u0441\u0442\u0438 \u0441\u0435\u0431\u044F
+    \u0442\u0438\u0445\u043E \u0438 \u043E\u0441\u0442\u043E\u0440\u043E\u0436\u043D\u043E.\n-
+    \u0412\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C
+    \u0440\u0430\u0437\u043B\u0438\u0447\u043D\u044B\u0435 \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u044B,
+    \u0447\u0442\u043E\u0431\u044B \u0441\u043E\u0437\u0434\u0430\u0432\u0430\u0442\u044C
+    \u0448\u0443\u043C \u0438 \u043E\u0442\u0432\u043B\u0435\u043A\u0430\u0442\u044C
+    \u043A\u043B\u043E\u0443\u043D\u0430.\n- \u041F\u043E \u043C\u0435\u0440\u0435
+    \u043F\u0440\u043E\u0445\u043E\u0436\u0434\u0435\u043D\u0438\u044F \u0438\u0433\u0440\u0430
+    \u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0441\u044F \u0441\u043B\u043E\u0436\u043D\u0435\u0435,
+    \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u0432\u0430\u0436\u043D\u043E \u0438\u0433\u0440\u0430\u0442\u044C
+    \u043E\u0441\u0442\u043E\u0440\u043E\u0436\u043D\u043E \u0438 \u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u0447\u0435\u0441\u043A\u0438."
+  en: '- You need to find and burn six "clown boxes" scattered throughout the house.
+
+    -
+    You can unlock doors with keys found in different parts of the house, collect
+    ammo, and gather fuels and firelighter to light up the fire on barrels without
+    fire.
+
+    - The clown can see and hear you, so it''s important to be quiet and
+    cautious.
+
+    - You can use various items to make noise and distract the clown.
+
+    -
+    The game gets harder as you progress, so it''s important to play carefully and
+    strategically.'
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 400
+  processTranslateLabel: 2/2 completed
+  componentTextField: 1
+  countLang: 2
 --- !u!1 &1518675562
 GameObject:
   m_ObjectHideFlags: 0
@@ -2083,6 +2459,7 @@ GameObject:
   - component: {fileID: 1753714763}
   - component: {fileID: 1753714765}
   - component: {fileID: 1753714764}
+  - component: {fileID: 1753714766}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -2207,6 +2584,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753714762}
   m_CullTransparentMesh: 1
+--- !u!114 &1753714766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753714762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 1753714764}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 0}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u041F\u043E\u043A\u0438\u0434\u0430\u0442\u044C"
+  en: Quit
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 2/19 completed
+  componentTextField: 1
+  countLang: 2
 --- !u!1 &1769118772
 GameObject:
   m_ObjectHideFlags: 0
@@ -2560,6 +2989,7 @@ GameObject:
   - component: {fileID: 2137777562}
   - component: {fileID: 2137777564}
   - component: {fileID: 2137777563}
+  - component: {fileID: 2137777565}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -2684,6 +3114,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2137777561}
   m_CullTransparentMesh: 1
+--- !u!114 &2137777565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137777561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 2137777563}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 0}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u041F\u043E\u043C\u043E\u0449\u044C"
+  en: Help
+  tr: 
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 2/19 completed
+  componentTextField: 1
+  countLang: 2
 --- !u!1 &1628886980404625
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,6 +3,7 @@ using DG.Tweening;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using YG;
 
 
 public class InfoTextUpdater : MonoBehaviour
@@ -30,7 +31,16 @@ public class InfoTextUpdater : MonoBehaviour
         switch (collectableID)
         {
             case CollectableID.Fuel:
-                _text.SetText("Item 'Fuel' removed from your inventory.");
+                if (YandexGame.EnvironmentData.language == "ru")
+                {
+                    _text.SetText("Предмет 'Топливо' удален из инвентаря.");
+                }
+                if (YandexGame.EnvironmentData.language == "en")
+                {
+                    _text.SetText("Item 'Fuel' removed from your inventory.");
+                }
+
+                
                 break;
         }
         StartCoroutine(TextFadeInAndOut());
@@ -41,22 +51,71 @@ public class InfoTextUpdater : MonoBehaviour
         switch (collectableID)
         {
             case CollectableID.KeyBlue:
-                _text.SetText("Item 'Blue Key' acquired");
+                if (YandexGame.EnvironmentData.language == "ru")
+                {
+                    _text.SetText("Получен 'Синий ключ'");
+                }
+                if (YandexGame.EnvironmentData.language == "en")
+                {
+                    _text.SetText("Item 'Blue Key' acquired");
+                }
                 break;
             case CollectableID.KeyGreen:
-                _text.SetText("Item 'Green Key' acquired");
+                if (YandexGame.EnvironmentData.language == "ru")
+                {
+                    _text.SetText("Получен 'Зеленый ключ'");
+                }
+                if (YandexGame.EnvironmentData.language == "en")
+                {
+                    _text.SetText("Item 'Green Key' acquired");
+                }
+                
                 break;
             case CollectableID.KeyRed:
-                _text.SetText("Item 'Red Key' acquired");
+                if (YandexGame.EnvironmentData.language == "ru")
+                {
+                    _text.SetText("Получен 'Красный ключ'");
+                }
+                if (YandexGame.EnvironmentData.language == "en")
+                {
+                    _text.SetText("Item 'Red Key' acquired");
+                }
+
+                
                 break;
             case CollectableID.KeyBlack:
-                _text.SetText("Item 'Black Key' acquired");
+                if (YandexGame.EnvironmentData.language == "ru")
+                {
+                    _text.SetText("Получен 'Черный ключ'");
+                }
+                if (YandexGame.EnvironmentData.language == "en")
+                {
+                    _text.SetText("Item 'Black Key' acquired");
+                }
+                
                 break;
             case CollectableID.Fuel:
-                _text.SetText("Item 'Fuel' acquired. Use it with an unused barrel to make fire");
+                if (YandexGame.EnvironmentData.language == "ru")
+                {
+                    _text.SetText("Приобретен предмет 'Топливо'");
+                }
+                if (YandexGame.EnvironmentData.language == "en")
+                {
+                    _text.SetText("Item 'Fuel' acquired.");
+                }
+                
                 break;
             case CollectableID.Firelighter:
-                _text.SetText("Item 'Firelighter' acquired. Use it with an unused barrel to make fire");
+                if (YandexGame.EnvironmentData.language == "ru")
+                {
+                    _text.SetText("Приобретен предмет 'Зажигалка'");
+                }
+                if (YandexGame.EnvironmentData.language == "en")
+                {
+                    _text.SetText("Item 'Firelighter' acquired");
+                }
+
+                
                 break;
             default:
                 break;
@@ -68,19 +127,51 @@ public class InfoTextUpdater : MonoBehaviour
     {
         if(key == CollectableID.KeyRed)
         {
-            _text.SetText("Door is locked. You must find 'Red Key' ");
+            if (YandexGame.EnvironmentData.language == "ru")
+            {
+                _text.SetText("Дверь заперта. Вы должны найти 'Красный ключ'");
+            }
+            if (YandexGame.EnvironmentData.language == "en")
+            {
+                _text.SetText("Door is locked. You must find 'Red Key' ");
+            }
+            
         }
         else if(key == CollectableID.KeyBlack)
         {
-            _text.SetText("Door is locked. You must find 'Black Key' ");
+            if (YandexGame.EnvironmentData.language == "ru")
+            {
+                _text.SetText("Дверь заперта. Вы должны найти 'Черный ключ'");
+            }
+            if (YandexGame.EnvironmentData.language == "en")
+            {
+                _text.SetText("Door is locked. You must find 'Black Key' ");
+            }
+            
         }
         else if(key == CollectableID.KeyGreen)
         {
-            _text.SetText("Door is locked. You must find 'Green Key' ");
+            if (YandexGame.EnvironmentData.language == "ru")
+            {
+                _text.SetText("Дверь заперта. Вы должны найти 'Зеленый ключ'");
+            }
+            if (YandexGame.EnvironmentData.language == "en")
+            {
+                _text.SetText("Door is locked. You must find 'Green Key' ");
+            }
+            
         }
         else if(key == CollectableID.KeyBlue)
         {
-            _text.SetText("Door is locked. You must find 'Blue Key' ");
+            if (YandexGame.EnvironmentData.language == "ru")
+            {
+                _text.SetText("Дверь заперта. Вы должны найти 'Синий ключ'");
+            }
+            if (YandexGame.EnvironmentData.language == "en")
+            {
+                _text.SetText("Door is locked. You must find 'Blue Key' ");
+            }
+            
         }
         StopAllCoroutines();
         StartCoroutine(TextFadeInAndOut());
