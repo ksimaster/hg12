@@ -10,6 +10,9 @@ public class AdShowManager : MonoBehaviour
     [SerializeField] private GameObject timerObj; // Канвас на котором весит текст с таймером
     [SerializeField] private TMP_Text timerText; // TextMeshPro элемент на канвасе(текст о предупреждении)
     [SerializeField] private GameObject panel;
+    private GameObject gameManager;
+
+   
 
     private void Awake()
     {
@@ -18,6 +21,7 @@ public class AdShowManager : MonoBehaviour
 
     void Start()
     {
+        gameManager = GameObject.Find("[GameManager]");
         timerObj.SetActive(true);
         StartCoroutine(AdShow());
     }
@@ -35,7 +39,11 @@ public class AdShowManager : MonoBehaviour
 
     IEnumerator AdShowHelper()
     {
+
+        gameManager.GetComponent<GameManager>().ADPauseResumeGame(true);
         panel.SetActive(true);
+
+
         if (YandexGame.EnvironmentData.language == "ru")
         {
             timerText.text = "ДО ПОКАЗА РЕКЛАМЫ 3 СЕКУНДЫ";
@@ -48,12 +56,13 @@ public class AdShowManager : MonoBehaviour
         {
             timerText.text = "REKLAM YAYINLANANA KADAR 3 SANİYE";
         }
-        float displayTimer = 0.1f;
+        yield return new WaitForSeconds(0.1f);
+        /*float displayTimer = 0.1f;
         while (displayTimer > 0)
         {
             displayTimer -= Time.deltaTime;
             yield return null;
-        }
+        } */
         if (YandexGame.EnvironmentData.language == "ru")
         {
             timerText.text = "ДО ПОКАЗА РЕКЛАМЫ 2 СЕКУНДЫ";
@@ -66,12 +75,13 @@ public class AdShowManager : MonoBehaviour
         {
             timerText.text = "REKLAM YAYINLANANA KADAR 2 SANİYE";
         }
-        displayTimer = 0.1f;
+        yield return new WaitForSeconds(0.1f);
+        /*displayTimer = 0.1f;
         while (displayTimer > 0)
         {
             displayTimer -= Time.deltaTime;
             yield return null;
-        }
+        } */
         if (YandexGame.EnvironmentData.language == "ru")
         {
             timerText.text = "ДО ПОКАЗА РЕКЛАМЫ 1 СЕКУНДЫ";
@@ -84,16 +94,21 @@ public class AdShowManager : MonoBehaviour
         {
             timerText.text = "REKLAM YAYINLANANA KADAR 1 SANİYE";
         }
-        displayTimer = 0.1f;
+        yield return new WaitForSeconds(0.1f);
+        /*displayTimer = 0.1f;
         while (displayTimer > 0)
         {
             displayTimer -= Time.deltaTime;
             yield return null;
         }
-
+        */
         StartCoroutine(AdShow());
         YandexGame.FullscreenShow();
-        //panel.SetActive(false);
+        gameManager.GetComponent<GameManager>().ADPauseResumeGame(false);
+        panel.SetActive(false);
+
         timerText.text = null;
     }
+
+
 }

@@ -12,12 +12,16 @@ public class GameManager : SingletonMonoObject<GameManager>
 {
     bool _isInGame;
     bool _isGamePaused;
+    bool _isADGamePaused;
     public int CompletedClownEvents;
 
     public bool IsGamePaused { get => _isGamePaused; }
 
+    public bool IsADGamePaused { get => _isADGamePaused; set => _isADGamePaused = value; }
+
     public event System.Action OnGameUnpaused;
     public event System.Action OnGamePaused;
+    public event System.Action OnADGamePaused;
     public event System.Action OnGameOver;
     public event System.Action OnGameStarted;
     public event System.Action OnGameCompleted;
@@ -106,6 +110,31 @@ public class GameManager : SingletonMonoObject<GameManager>
        
        
     }
+
+    public void ADPauseResumeGame(bool isADGamePaused)
+    {
+        if (isADGamePaused)
+        {
+
+            //Cursor.lockState = CursorLockMode.Confined;
+            Time.timeScale = 0.0001f;
+            SoundManager.Instance.PauseAllSounds();
+            OnADGamePaused?.Invoke();
+            //_isADGamePaused = true;
+            _isInGame = false;
+        }
+        else if (isADGamePaused)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Time.timeScale = 1f;
+            SoundManager.Instance.UnpauseAllSounds();
+            OnGameUnpaused?.Invoke();
+            _isInGame = true;
+            //_isADGamePaused = false;
+        }
+
+    }
+
     public void RestartGame()
     {
         _isInGame = true;
