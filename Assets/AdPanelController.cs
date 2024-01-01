@@ -15,6 +15,7 @@ public class AdPanelController : MonoBehaviour
 
     void Update()
     {
+        /*
         if (panelAdShow.activeSelf)
         {
             Cursor.lockState = CursorLockMode.Confined;
@@ -39,6 +40,7 @@ public class AdPanelController : MonoBehaviour
             // ¬ключить левую кнопку мыши
             EnableLeftMouseButton();
         }
+        */
     }
 
     void DisableLeftMouseButton()

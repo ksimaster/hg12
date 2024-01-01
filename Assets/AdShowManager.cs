@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using YG;
+using UnityEngine.SceneManagement;
+using Controllers;
 
 public class AdShowManager : MonoBehaviour
 {
@@ -11,6 +13,8 @@ public class AdShowManager : MonoBehaviour
     [SerializeField] private TMP_Text timerText; // TextMeshPro элемент на канвасе(текст о предупреждении)
     [SerializeField] private GameObject panel;
     private GameObject gameManager;
+    
+    
 
    
 
@@ -41,6 +45,7 @@ public class AdShowManager : MonoBehaviour
     {
 
         gameManager.GetComponent<GameManager>().ADPauseResumeGame(true);
+        Camera.main.GetComponent<CameraController>().MouseSensitivityZero();
         panel.SetActive(true);
 
 
@@ -56,7 +61,7 @@ public class AdShowManager : MonoBehaviour
         {
             timerText.text = "REKLAM YAYINLANANA KADAR 3 SANİYE";
         }
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.01f);
         /*float displayTimer = 0.1f;
         while (displayTimer > 0)
         {
@@ -75,7 +80,7 @@ public class AdShowManager : MonoBehaviour
         {
             timerText.text = "REKLAM YAYINLANANA KADAR 2 SANİYE";
         }
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.01f);
         /*displayTimer = 0.1f;
         while (displayTimer > 0)
         {
@@ -94,7 +99,7 @@ public class AdShowManager : MonoBehaviour
         {
             timerText.text = "REKLAM YAYINLANANA KADAR 1 SANİYE";
         }
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.01f);
         /*displayTimer = 0.1f;
         while (displayTimer > 0)
         {
@@ -105,6 +110,7 @@ public class AdShowManager : MonoBehaviour
         StartCoroutine(AdShow());
         YandexGame.FullscreenShow();
         gameManager.GetComponent<GameManager>().ADPauseResumeGame(false);
+        Camera.main.GetComponent<CameraController>().MouseSensitivityReturn();
         panel.SetActive(false);
 
         timerText.text = null;

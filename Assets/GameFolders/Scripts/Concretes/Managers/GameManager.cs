@@ -116,14 +116,14 @@ public class GameManager : SingletonMonoObject<GameManager>
         if (isADGamePaused)
         {
 
-            //Cursor.lockState = CursorLockMode.Confined;
-            Time.timeScale = 0.0001f;
+            Cursor.lockState = CursorLockMode.Locked;
+            Time.timeScale = 0.01f;
             SoundManager.Instance.PauseAllSounds();
             OnADGamePaused?.Invoke();
             //_isADGamePaused = true;
             _isInGame = false;
         }
-        else if (isADGamePaused)
+        else if (!isADGamePaused)
         {
             Cursor.lockState = CursorLockMode.Locked;
             Time.timeScale = 1f;

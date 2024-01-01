@@ -6,14 +6,27 @@ namespace Controllers
     {
         [SerializeField] Transform _player;
         [Header("Sensitivity")]
-        [SerializeField][Range(50f, 350f)] float _mouseXSensitivity;
-        [SerializeField][Range(50f, 350f)] float _mouseYSensitivity;
+        [SerializeField][Range(0f, 350f)] float _mouseXSensitivity;
+        [SerializeField][Range(0f, 350f)] float _mouseYSensitivity;
         [Header("Vertical Clamp")]
         [SerializeField] float MinVerticalAngle;
         [SerializeField] float MaxVerticalAngle;
         bool _disableInput;
 
         float _yRotation;
+
+        public void MouseSensitivityReturn()
+        {
+            _mouseXSensitivity = 130;
+            _mouseYSensitivity = 120;
+        }
+
+        public void MouseSensitivityZero()
+        {
+            _mouseXSensitivity = 0;
+            _mouseYSensitivity = 0;
+        }
+
         private void OnEnable()
         {
             Cursor.lockState = CursorLockMode.Locked;
