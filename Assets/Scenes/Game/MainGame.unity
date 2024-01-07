@@ -417,8 +417,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 130059533}
-  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -457,17 +455,6 @@ MonoBehaviour:
   processTranslateLabel: 2/19 completed
   componentTextField: 1
   countLang: 2
---- !u!114 &130059533 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1636217410, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
-  m_PrefabInstance: {fileID: 2115784751}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130059530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!43 &143702550
 Mesh:
   m_ObjectHideFlags: 0
@@ -1139,17 +1126,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 725191309, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
   m_PrefabInstance: {fileID: 2115784751}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &274712277 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 725191311, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
-  m_PrefabInstance: {fileID: 2115784751}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 274712276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &274712278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1162,8 +1138,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 274712277}
-  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -1404,8 +1378,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 305379965}
-  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -1444,17 +1416,6 @@ MonoBehaviour:
   processTranslateLabel: 2/19 completed
   componentTextField: 1
   countLang: 2
---- !u!114 &305379965 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1528118834, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
-  m_PrefabInstance: {fileID: 2115784751}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 305379962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!43 &347849040
 Mesh:
   m_ObjectHideFlags: 0
@@ -2459,8 +2420,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 526607236}
-  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -2499,17 +2458,6 @@ MonoBehaviour:
   processTranslateLabel: 2/19 completed
   componentTextField: 1
   countLang: 2
---- !u!114 &526607236 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1377350187, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
-  m_PrefabInstance: {fileID: 2115784751}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526607233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!850595691 &560679125
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -3738,8 +3686,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 782761490}
-  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -3778,17 +3724,6 @@ MonoBehaviour:
   processTranslateLabel: 2/19 completed
   componentTextField: 1
   countLang: 2
---- !u!114 &782761490 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1325275638, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
-  m_PrefabInstance: {fileID: 2115784751}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 782761487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &798674214 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3288424506290846032, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
@@ -7485,8 +7420,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 948593977}
-  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -7526,17 +7459,6 @@ MonoBehaviour:
   processTranslateLabel: 2/19 completed
   componentTextField: 1
   countLang: 2
---- !u!114 &948593977 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5383876438380098413, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
-  m_PrefabInstance: {fileID: 2115784751}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 948593974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!43 &949160646
 Mesh:
   m_ObjectHideFlags: 0
@@ -8755,8 +8677,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1148078804}
-  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -8795,17 +8715,6 @@ MonoBehaviour:
   processTranslateLabel: 2/19 completed
   componentTextField: 1
   countLang: 2
---- !u!114 &1148078804 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1891336346, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
-  m_PrefabInstance: {fileID: 2115784751}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1148078801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!43 &1182898287
 Mesh:
   m_ObjectHideFlags: 0
@@ -9306,8 +9215,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1321591463}
-  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -9346,17 +9253,6 @@ MonoBehaviour:
   processTranslateLabel: 2/19 completed
   componentTextField: 1
   countLang: 2
---- !u!114 &1321591463 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1060121277, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
-  m_PrefabInstance: {fileID: 2115784751}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321591460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1440968862 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2534269414917596008, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
@@ -9409,8 +9305,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1474884299}
-  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -9449,17 +9343,6 @@ MonoBehaviour:
   processTranslateLabel: 2/19 completed
   componentTextField: 1
   countLang: 2
---- !u!114 &1474884299 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1720145516, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
-  m_PrefabInstance: {fileID: 2115784751}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474884296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!43 &1482523715
 Mesh:
   m_ObjectHideFlags: 0
@@ -10359,8 +10242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1612885893}
-  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -10415,17 +10296,6 @@ MonoBehaviour:
   processTranslateLabel: 2/19 completed
   componentTextField: 1
   countLang: 2
---- !u!114 &1612885893 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1954116709, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
-  m_PrefabInstance: {fileID: 2115784751}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1612885890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1641398645 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 369837236, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
@@ -10443,8 +10313,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1641398648}
-  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -10483,17 +10351,6 @@ MonoBehaviour:
   processTranslateLabel: 2/19 completed
   componentTextField: 1
   countLang: 2
---- !u!114 &1641398648 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 369837238, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
-  m_PrefabInstance: {fileID: 2115784751}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641398645}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!43 &1662056993
 Mesh:
   m_ObjectHideFlags: 0
@@ -10695,8 +10552,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1682134827}
-  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -10735,17 +10590,6 @@ MonoBehaviour:
   processTranslateLabel: 2/19 completed
   componentTextField: 1
   countLang: 2
---- !u!114 &1682134827 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 671766894, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
-  m_PrefabInstance: {fileID: 2115784751}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1682134824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!195 &1694104029 stripped
 NavMeshAgent:
   m_CorrespondingSourceObject: {fileID: 7825442448065275584, guid: c08de0d456afa3a44ae71f51c51ac547, type: 3}
@@ -10969,8 +10813,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1802710157}
-  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -11009,17 +10851,6 @@ MonoBehaviour:
   processTranslateLabel: 2/19 completed
   componentTextField: 1
   countLang: 2
---- !u!114 &1802710157 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2141615186, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
-  m_PrefabInstance: {fileID: 2115784751}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1802710154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!43 &1818327788
 Mesh:
   m_ObjectHideFlags: 0
@@ -11967,8 +11798,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1903055548}
-  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -12007,17 +11836,6 @@ MonoBehaviour:
   processTranslateLabel: 2/19 completed
   componentTextField: 1
   countLang: 2
---- !u!114 &1903055548 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1300268401, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
-  m_PrefabInstance: {fileID: 2115784751}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1903055545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1910792719 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 588341888, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
@@ -12035,8 +11853,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1910792722}
-  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -12091,17 +11907,6 @@ MonoBehaviour:
   processTranslateLabel: 2/19 completed
   componentTextField: 1
   countLang: 2
---- !u!114 &1910792722 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 588341890, guid: 378a2924eb7e1584ba24d83809efcb86, type: 3}
-  m_PrefabInstance: {fileID: 2115784751}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1910792719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1985701023
 PrefabInstance:
   m_ObjectHideFlags: 0

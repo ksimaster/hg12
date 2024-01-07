@@ -71,6 +71,15 @@ namespace Controllers
             }
 
             if (GameManager.Instance.IsGamePaused) return;
+
+          /*  if (PlayerPrefs.GetInt("ADGamePaused") == 1)
+            {
+                PlayerPrefs.SetInt("ADGamePaused", 0);
+                GameManager.Instance.PauseResumeGame();
+            }
+          */
+            if (GameManager.Instance.IsADGamePaused) return;
+
             HandleInput();
         }
 

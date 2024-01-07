@@ -120,7 +120,7 @@ public class GameManager : SingletonMonoObject<GameManager>
             Time.timeScale = 0.01f;
             SoundManager.Instance.PauseAllSounds();
             OnADGamePaused?.Invoke();
-            //_isADGamePaused = true;
+            _isADGamePaused = true;
             _isInGame = false;
         }
         else if (!isADGamePaused)
@@ -130,7 +130,8 @@ public class GameManager : SingletonMonoObject<GameManager>
             SoundManager.Instance.UnpauseAllSounds();
             OnGameUnpaused?.Invoke();
             _isInGame = true;
-            //_isADGamePaused = false;
+            _isADGamePaused = false;
+           // PlayerPrefs.SetInt("ADGamePaused", 1);
         }
 
     }
