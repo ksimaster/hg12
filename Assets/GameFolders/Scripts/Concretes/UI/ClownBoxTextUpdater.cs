@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using YG;
 
 public class ClownBoxTextUpdater : MonoBehaviour
 {
@@ -20,6 +21,15 @@ public class ClownBoxTextUpdater : MonoBehaviour
     }
     void HandleOnClownBoxIncreased()
     {
-        _text.SetText( GameManager.Instance.CompletedClownEvents + "/6 box burned" );
+        if (YandexGame.EnvironmentData.language == "ru")
+        {
+            _text.SetText(GameManager.Instance.CompletedClownEvents + "/6 Коробок сожжено");
+        }
+        if (YandexGame.EnvironmentData.language == "en")
+        {
+            _text.SetText(GameManager.Instance.CompletedClownEvents + "/6 box burned");
+        }
     }
+
 }
+

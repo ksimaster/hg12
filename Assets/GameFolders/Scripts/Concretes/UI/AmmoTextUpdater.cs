@@ -2,6 +2,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 
 public class AmmoTextUpdater : MonoBehaviour
 {
@@ -20,6 +21,16 @@ public class AmmoTextUpdater : MonoBehaviour
     }
     void HandleOnHealthChanged()
     {
-        _text.SetText("Ammo: " + PlayerInventoryManager.Instance.TotalAmmo);
+        if (YandexGame.EnvironmentData.language == "ru")
+        {
+            _text.SetText("Патроны: " + PlayerInventoryManager.Instance.TotalAmmo);
+        }
+        if (YandexGame.EnvironmentData.language == "en")
+        {
+            _text.SetText("Ammo: " + PlayerInventoryManager.Instance.TotalAmmo);
+        }
+
     }
+    
+     
 }
